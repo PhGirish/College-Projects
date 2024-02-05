@@ -2,4 +2,4 @@ AmazonClone - static webpage build using HTML,CSS only.
 
 Dental/OnlineTeaching - semester projects build using ASP.net
 
-TicTacToe - Build using JavaScript while learning JS
+TicTacToe/ReviewCoursel - Build using JavaScript while learning JS
