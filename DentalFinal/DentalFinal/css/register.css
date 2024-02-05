@@ -1,0 +1,52 @@
+﻿
+body {
+    background-color: #84A98C;
+}
+
+.form1 {
+    background-color: #cad2c5;
+    margin: 5%;
+    padding: 1%;
+    width: 600px;
+    height: 450px;
+}
+
+table, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+.row {
+    margin: 5px 5px 5px 5px;
+    padding: 15px;
+}
+
+td {
+    margin-left: 3%;
+    text-align: center;
+}
+/*.button
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #84A98C; 
+    font-size: 20px;
+}
+.button:hover {
+    background-color: #84A98C; 
+    color: white;
+  }*/
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #84A98C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #84A98C;
+    color: white;
+}

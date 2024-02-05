@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="DentalFinal.masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> User Master</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Alleviating Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="text/javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet"/>
+    <!-- //Custom Theme files -->
+	<link href="css/minimal-slider.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+    <!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#BBD0FF;">
+    <form id="form1" runat="server">
+        <!-- nav bar -->
+
+        <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="homepage.aspx">t h e &nbsp t o o t h &nbsp  s p a</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-3">
+          <a class="nav-link " aria-current="page" href="homepage.aspx">h o m e</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           l o g - i n
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="adminlogin.aspx">admin login</a></li>
+            <li><a class="dropdown-item" href="login.aspx">user login</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+
+        <li class="nav-item px-3">
+          <a class="nav-link" href="reg.aspx">r e g i s t r a t i o n</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="ContactUs.aspx">c o n t a c t &nbsp u s</a>
+        </li>
+                  <li class="nav-item px-3">
+          <a class="nav-link" href="aboutUs.aspx">a b o u t &nbsp u s</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+        <!-- nav bar end -->
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
