@@ -1,4 +1,4 @@
-AmazonClone - static webpage build using HTML,CSS only.
+AmazonClone - static webpage build using HTML,CSS.
 
 Dental/OnlineTeaching - semester projects build using ASP.net
 
